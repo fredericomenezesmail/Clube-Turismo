@@ -14,7 +14,7 @@ git clone https://github.com/fredericomenezesmail/clubeTurismo.git
 
 Instale as dependências:
 
-pip install -r requirements/local.txt
+pip install -r clubeTurismo/requirements/local.txt
 
 
 Execute as migrações e inicie o servidor:
@@ -27,5 +27,5 @@ O servidor deve estar funcionando e as páginas estarem acessíveis em:
 http://127.0.0.1:8000
 
 
-Para acessar a api o caminho é:
+Para acessar o endpoint da api o caminho é:
 http://127.0.0.1:8000/apiclubeTurismoUsers/
