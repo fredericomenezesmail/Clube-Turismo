@@ -19,6 +19,7 @@ pip install -r clubeTurismo/requirements/local.txt
 
 Execute as migrações e inicie o servidor:
 
+cd clubeTurismo
 python manage.py migrate
 python manage.py runserver
 
