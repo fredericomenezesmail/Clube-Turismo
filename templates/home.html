@@ -1,0 +1,21 @@
+
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Clube Turismo {% endblock %}</title>
+</head>
+<body>
+  {% block pagecontent %}
+    {% include 'partials/nav-bar.html' %}
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Clube Turismo! <i class="fas fa-globe-americas"></i></h1>
+        </div>
+    </div>
+  {% endblock %}
+</body>
+</html>
