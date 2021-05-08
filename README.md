@@ -1,5 +1,4 @@
-# clubeTurismo
-Clube Turismo
+# Clube Turismo
 
 Crie um diretório para o projeto e instale o python "virtual environment" dentro do diretório:
 
